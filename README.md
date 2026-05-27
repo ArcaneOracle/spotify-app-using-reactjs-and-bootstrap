@@ -1,3 +1,11 @@
+# Spotify App Using ReactJS and BootStrapCSS
+
+I built this Spotify App using ReactJS and BootStrapCSS. I used a lot of custom styling.
+
+## ReactJS Simulated User Log In
+
+Click the log in button to load all the songs and their details.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
