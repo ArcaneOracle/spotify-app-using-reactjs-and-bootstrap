@@ -1,0 +1,43 @@
+.headingDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.headingDiv h1 {
+    color: var(--spotifyGreen);
+}
+
+.spotifyAndLogo {
+    display: flex;
+    align-items: center;
+}
+
+.spotifyLogo {
+    width: 60px;
+}
+
+.loggedInOrNot {
+    background-color: var(--spotifyGreen);
+    padding: 5px 10px 5px 10px;
+    border: 1px solid var(--spotifyBlack);
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.loggedInOrNot:hover {
+    background-color: var(--spotifyGreenHover);
+}
+
+.loggedInOrNot:active {
+    background-color: var(--spotifyGreenActive);
+}
+
+.spotifyHeading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}

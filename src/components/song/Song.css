@@ -1,0 +1,49 @@
+.song {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    border: 5px solid black;
+}
+
+.song:hover {
+    background-color: var(--spotifyBlackHover);
+}
+
+.song:active {
+    background-color: var(--spotifyBlackActive);
+}
+
+.albumCover {
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.songInformation {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.songTitle {
+    color: white;
+    margin: 5px;
+}
+
+.songYearAndArtistAndAlbum {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.songArtist {
+    color: var(--spotifyGreen);
+    margin: 0;
+}
+
+.songYear {
+    color: var(--spotifyGray);
+    margin: 0;
+}

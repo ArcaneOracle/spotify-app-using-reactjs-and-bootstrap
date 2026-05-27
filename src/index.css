@@ -1,0 +1,25 @@
+:root {
+  --spotifyGreen: #1cd961;
+  --spotifyGreenHover: #1ae35f;
+  --spotifyGreenActive: #31dc6b;
+  --spotifyBlack: #1c1514;
+  --spotifyGray: #a8a8a8;
+  --spotifyBlackHover: #150f0f;
+  --spotifyBlackActive: #120d0d;
+}
+
+#root {
+  height: 100vh;
+  background-color: var(--spotifyBlack);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--spotifyBlack);
+  height: 100%;
+}
+
+.spotifyGreen {
+  color: var(--spotifyGreen);
+}

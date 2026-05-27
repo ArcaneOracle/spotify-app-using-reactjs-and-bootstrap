@@ -1,0 +1,15 @@
+.welcomeToSpotify {
+    color: var(--spotifyGreen);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.landingPageText p {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 15px;
+}
